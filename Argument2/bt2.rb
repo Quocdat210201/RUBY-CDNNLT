@@ -5,9 +5,15 @@ b = gets
 puts("Nhap canh thu 3 :")
 c = gets
 
-if a+b>c && a+c>b && c+b>a
-    puts("Dây la tam giac")
-else 
+a=a.to_i
+b=b.to_i
+c=c.to_i
+
+if a<b+c && b<a+c && c<a+b
     p = a + b + c
-    puts(p) 
+    s = Math.sqrt(p * (p-a) * (p-b) * (p-c)).round(2)
+    puts("Chu vi = #{p}")
+    puts("Dien tich = #{s}")
+else 
+    puts("Dây ko phải la tam giac") 
 end
