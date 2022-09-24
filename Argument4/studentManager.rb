@@ -43,6 +43,6 @@ a.each_index {
     puts "#{a[index].show()}"
 }
 print "Danh sách sinh viên sau khi sắp xếp:\n"
-for x in a.sort_by{|stu|[stu.average]} do
+for x in a.sort_by{|stu|[stu.average]}.reverse! do
     puts "#{x.show}"
 end
