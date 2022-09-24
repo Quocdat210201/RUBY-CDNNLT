@@ -1,6 +1,5 @@
 class Man
-    attr_accessor :name, :hair , :phone, :email, :nation
-    attr_accessor :height, :weight, :age
+    attr_accessor :name, :hair , :phone, :email, :nation, :height, :weight, :age
     def initialize(name,hair,height,weight,age,phone,email,nation)          
             @name = name       
             @age = age
