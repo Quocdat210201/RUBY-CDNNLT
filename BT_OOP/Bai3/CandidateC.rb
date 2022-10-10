@@ -9,7 +9,7 @@ class CandidateC < Candidate
         super(id, name, address, priority)
     end
 
-    def showInfor()
-        print("ID : #{@id} - Name : #{@name} - Address : #{@address} - Priority : #{@priority} - Subject : #{MON_VAN} - #{MON_SU} - #{MON_DIA}")
+    def showInfor
+        puts "ID : #{@id} - Name : #{@name} - Address : #{@address} - Priority : #{@priority} - Subject : #{MON_VAN} - #{MON_SU} - #{MON_DIA}"
     end
 end
