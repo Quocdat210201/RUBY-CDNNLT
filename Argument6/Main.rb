@@ -28,6 +28,7 @@ while true
     when 1
         phanso1 = nhapPhanSo()
         phanso2 = nhapPhanSo()
+        # puts(phanso1 + phanso2).inspect
         bieuThuc.Cong(phanso1,phanso2)
     when 2
         phanso1 = nhapPhanSo()
