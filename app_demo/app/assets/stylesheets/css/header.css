@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #272626 !important;
+}
+
+.navbar a{
+    color: white !important
+}
+
+
+.navbar-collapse{
+    justify-content: space-between;
+}
+
+.btn{
+    margin-left: 6px;
+}
